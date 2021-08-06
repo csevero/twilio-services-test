@@ -9,11 +9,13 @@
     "build:start": "yarn tsc && node dist/server.js"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.12",
     "@types/express": "^4.17.12",
     "ts-node-dev": "^1.1.6",
     "typescript": "^4.3.4"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "twilio": "^3.64.0"
